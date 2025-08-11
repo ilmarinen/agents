@@ -89,7 +89,6 @@ async def ask_agent_team(query, worker_model="gpt-4o", judge_model="gpt-4o"):
                 parsed = json.loads(re.sub(r"```json|```", "", raw).strip())
                 break
             except Exception:
-                import pdb; pdb.set_trace()
                 continue
 
         if parsed["decision"] == "pass":

@@ -1,0 +1,11 @@
+langgraph
+langchain
+langchain-openai
+jinja2
+langgraph-mcp-adapters
+fastmcp
+playwright
+beautifulsoup4
+autogen-agentchat
+autogen-ext[openai]
+autogen-ext[mcp]
